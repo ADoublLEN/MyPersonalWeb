@@ -1,0 +1,29 @@
+.proj-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  max-width: 80%;
+  margin: 20px auto;
+  margin-top: 180px;
+  position: relative;
+}
+
+.proj-detail h2 {
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+
+.proj-detail p {
+  margin-bottom: 16px;
+}
+
+.proj-detail img {
+  margin-top: 35px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.video-container {
+  margin-top: 30px; /* 你可以根据需要调整这个值 */
+}

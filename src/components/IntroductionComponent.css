@@ -1,0 +1,34 @@
+.introduction-container {
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  border-radius: 15px; /* 四周圆角 */
+  width: 80%; /* 可以调整为您需要的宽度 */
+  margin: 0 auto; /* 居中容器 */
+}
+
+.introduction-container h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px; /* 这里可以调整为您希望的距离 */
+}
+
+.introduction-container p {
+  text-align: left; /* 左对齐 */
+  font-weight: bold; /* 粗体 */
+  font-size: 1.1em; /* 字体大小调整为原来的110% */
+}
+
+.contact-info {
+  margin-top: 20px; /* 与上面的自我介绍空一个距离 */
+}
+
+.contact-info a,
+.contact-info p {
+  color: gray;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
